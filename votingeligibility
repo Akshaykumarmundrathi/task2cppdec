@@ -1,10 +1,11 @@
 #include<iostream>
 using namespace std;
 int main(){
-int yearsyoubreathedair;
+int years_you_breathed_air;
 cout<<"enter age of the user : ";
-cin>>yearsyoubreathedair;
-(yearsyoubreathedair>=18)?(cout<<"you can try to change world by voting";):(cout<<"still need to breathe more air to vote";);
+cin>>years_you_breathed_air;
+//ternary expression
+(years_you_breathed_air>=18)?(cout<<"you can try to change world by voting"):(cout<<"still need to breathe more air to vote");
 
 return 0;
 }
