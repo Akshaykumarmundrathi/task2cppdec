@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main(){
+int yearsyoubreathedair;
+cout<<"enter age of the user : ";
+cin>>yearsyoubreathedair;
+(yearsyoubreathedair>=18)?(cout<<"you can try to change world by voting";):(cout<<"still need to breathe more air to vote";);
+
+return 0;
+}
